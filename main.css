@@ -1,3 +1,86 @@
 body {
-    background-color: darkgreen;
+    background-image: url("https://i.pinimg.com/originals/bb/ec/f5/bbecf573f0e42591cdc6f4eeb2bb15de.gif");
+    background-size: 140%;
+    background-repeat: no-repeat;
 }
+  
+  .topBar {
+    color: azure;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+  }
+  
+  .site-title {
+    font-weight: bold; 
+    font-family: 'Balsamiq Sans', cursive;
+    margin: 0;
+    padding: 0;
+  }
+  
+form {
+    margin: 40px 500px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+  .cards {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    float: left;
+    margin: 0;
+  }
+  
+  .bear-card {
+    border: solid maroon;
+    margin: 20px 60px 40px 60px;
+    width: 300px;
+    min-height: 400px;
+    box-shadow: 5px 5px black;
+    border-radius: 25px;
+    color: white;
+    font-family: 'Raleway';
+  }
+  
+  .bear-header {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .bear-header img {
+    width: 300px;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    border-radius: 25px 25px 0px 0px;
+    border-bottom: solid lightcoral;
+  }
+  
+  .bear-header h1 {
+    text-align: center;
+    background-color: maroon;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .color {
+    text-align: left;
+    display: flex;
+    margin: 0px 5px;
+  }
+  
+  .skill {
+    text-align: left;
+    display: flex;
+    margin: 0px 5px;
+  }
+  
+  .type {
+    text-align: left;
+    display: flex;
+    margin: 0px 5px;
+  }
+  

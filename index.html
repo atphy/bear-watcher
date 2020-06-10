@@ -1,13 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bear Watcher</title>
-    <link rel=stylesheet href="main.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bear Watcher</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    Bear Watcher
+  <main>
+    <header class="topBar">
+        <h1 class="site-title">Bear Watcher</h1>
+    </header>
+
+    <form>
+        <div class="form-group">
+          <input type="text" class="form-control bearNameInput" id="formGroupExampleInput" placeholder="Name your bear">
+        </div>
+        <div class="form-group">
+          <input type="text" class="form-control bearImgInput" id="formGroupExampleInput2" placeholder="Give us an image link so we know what it looks like">
+        </div>
+        <button type="submit" class="btn btn-primary mb-2">Submit</button>
+      </form>
+
+    <div class="cards">
+    </div>
+
+  </main>
+  <script src="main.js"></script>
 </body>
-<script src="main.js"></script>
 </html>
