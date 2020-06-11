@@ -15,20 +15,19 @@
         <h1 class="site-title">Bear Watcher</h1>
     </header>
 
-    <form>
+    <form id="bearForm">
         <div class="form-group">
-          <input type="text" class="form-control bearNameInput" id="formGroupExampleInput" placeholder="Name your bear">
+          <input type="text" class="form-control" id="bearNameInput" placeholder="Name your bear">
         </div>
         <div class="form-group">
-          <input type="text" class="form-control bearImgInput" id="formGroupExampleInput2" placeholder="Give us an image link so we know what it looks like">
+          <input type="text" class="form-control" id="bearImgInput" placeholder="Give us an image link so we know what it looks like">
         </div>
-        <button type="submit" class="btn btn-primary mb-2">Submit</button>
+        <button type="button" class="btn btn-primary mb-2" id="bearSubmit">Submit</button>
       </form>
 
-    <div class="cards">
-    </div>
+    <div class="cards"></div>
 
   </main>
-  <script src="main.js"></script>
+  <script type= "module" src="javascripts/main.js"></script>
 </body>
 </html>
