@@ -8,7 +8,7 @@ https://github.com/nss-evening-cohort-12/e12-homework/blob/master/week08.md
 ![Main View](screenshots/bearwatcher_demo.gif)
 
 ## View Project
-To view the project, clone it down from Github and run in a terminal!
+ https://atphy.github.io/bear-watcher/
 
 ## Technologies Used
 [![Vanilla JavaScript](https://img.shields.io/badge/-Vanilla%20JavaScript-2c9fcc?style=flat-square)](#) [![HTML](https://img.shields.io/badge/-HTML-2c9fcc?style=flat-square)](#) [![CSS](https://img.shields.io/badge/-CSS-2c9fcc?style=flat-square)](#) [![JavaScript Modules](https://img.shields.io/badge/JavaScript-Modules-lightgrey)](#)
